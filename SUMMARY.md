@@ -32,6 +32,7 @@
 * [Install vivado 24.1](tools/install-vivado-24.1.md)
 * [Get started with vivado 24.1](tools/get-started-with-vivado-24.1.md)
 * [Get started with quartus](tools/get-started-with-quartus.md)
+* [FPGA build flow](tools/fpga-build-flow.md)
 
 ## Devices
 
