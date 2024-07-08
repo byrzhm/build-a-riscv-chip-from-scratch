@@ -1,6 +1,7 @@
 # Tcl
 
-## Set up
+{% hint style="info" %}
+Preparation:
 
 Add `<install_path>/Vivado/<version>/bin` directory to the PATH.
 Suppose the vivado is installed in linux at directory `/tools/Xilinx/Vivado/2024.1`, append the following line to `~/.bashrc` and then run `source ~/.bashrc`.
@@ -12,6 +13,8 @@ export PATH="/tools/Xilinx/Vivado/2024.1/bin:$PATH"
 Now, when you enter `vivado` at the command prompt, it will automatically runs `vivado -mode gui` to launch the Vivado IDE.
 
 Now, enter `vivado -mode tcl`. It will launch an interactive Tcl command shell. You can enter `start_gui` at the tcl prompt to launch the Vivado IDE and open the Vivado tool GUI.
+
+{% endhint %}
 
 ## Elaborate
 
@@ -115,3 +118,4 @@ close_hw_manager
 ## References
 
 * [Vivado Design Suite Tcl Command Reference Guide](https://docs.amd.com/viewer/book-attachment/a2qiEEk26YWwT25rSFVbmg/NprkEJ~T_~hEobkp7CgVRA)
+* [EECS 151/251A FPGA lab scripts](https://github.com/EECS150/fpga_labs_sp24/tree/main/scripts)
