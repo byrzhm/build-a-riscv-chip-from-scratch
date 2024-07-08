@@ -22,6 +22,7 @@
 * [Get started with vivado 24.1](tools/get-started-with-vivado-24.1.md)
 * [Get started with quartus](tools/get-started-with-quartus.md)
 * [FPGA build flow](tools/fpga-build-flow.md)
+* [Tcl](tools/tcl.md)
 
 ## Devices
 
