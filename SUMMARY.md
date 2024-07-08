@@ -3,12 +3,10 @@
 ## Turorial
 
 * [Overview](README.md)
-* [ROM](turorial/rom.md)
-* [RAM](turorial/ram.md)
+* [Memory](turorial/memory.md)
 * [ALU](turorial/alu.md)
 * [ISA](turorial/isa.md)
 * [Pipeline](turorial/pipeline.md)
-* [SSH](turorial/ssh.md)
 
 ## Interfaces
 
@@ -16,16 +14,7 @@
   * [VGA](interfaces/graphics/vga.md)
   * [HDMI](interfaces/graphics/hdmi.md)
   * [Draw an image using FPGA](interfaces/graphics/draw-an-image-using-fpga.md)
-  * [VGA text mode](interfaces/graphics/vga-text-mode.md)
-* [AC97 Audio](interfaces/ac97-audio.md)
-* [I2C Bus](interfaces/i2c-bus.md)
-* [RS-232](interfaces/rs-232.md)
-* [Ethernet](interfaces/ethernet.md)
-* [SD card](interfaces/sd-card.md)
-* [PCI](interfaces/pci.md)
-* [PCI Express](interfaces/pci-express.md)
-* [SDRAM](interfaces/sdram.md)
-* [Keyboard](interfaces/keyboard.md)
+* [UART and FIFO](interfaces/uart-and-fifo.md)
 
 ## Tools
 
@@ -39,6 +28,9 @@
 * [ZYNQ7000 - AX7020](devices/zynq7000-ax7020.md)
 * [DE10-Stanard](devices/de10-stanard.md)
 
-***
+## Misc
 
-* [Other resources](other-resources.md)
+* [Build A RISC-V Soft Core CPU](misc/build-a-riscv-soft-core-cpu.md)
+* [Introduction to FPGA](misc/introduction-to-fpga.md)
+* [Clock Wizard](misc/clock-wizard.md)
+* [What is an IP core?](misc/what-is-an-ip-core.md)

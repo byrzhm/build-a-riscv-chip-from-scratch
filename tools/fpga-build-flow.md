@@ -12,6 +12,5 @@ Design Reports and Logs:
 
 ## References
 
-{% embed url="https://github.com/EECS150/fpga_labs_sp24/tree/main/lab1#fpga-build-flow" %}
-
-{% embed url="https://docs.amd.com/r/2021.1-English/ug835-vivado-tcl-commands/Introduction" %}
+* [EECS 151/251A 2024 spring fpga lab1](https://github.com/EECS150/fpga_labs_sp24/tree/main/lab1#fpga-build-flow)
+* [Vivado Design Suite Tcl Command Reference Guide (UG835)](https://docs.amd.com/r/2021.1-English/ug835-vivado-tcl-commands/Introduction)

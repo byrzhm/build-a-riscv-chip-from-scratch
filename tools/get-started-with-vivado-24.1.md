@@ -252,6 +252,5 @@ Now, you can see the breathing light effect.
 
 ## References
 
-{% embed url="https://lab.cs.tsinghua.edu.cn/digital-logic-lab/doc/lab4/vivado_use/" %}
-
-{% embed url="https://www.bilibili.com/video/BV1JJ411u77d?p=2&vd_source=571900c3ae9bbfdc988accacb2feb8be" %}
+* [Tsinghua](https://lab.cs.tsinghua.edu.cn/digital-logic-lab/doc/lab4/vivado_use/)
+* [Alinx tutorial](https://www.bilibili.com/video/BV1JJ411u77d?p=2&vd_source=571900c3ae9bbfdc988accacb2feb8be)
