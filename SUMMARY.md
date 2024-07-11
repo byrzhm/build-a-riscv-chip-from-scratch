@@ -14,7 +14,7 @@
   * [VGA](interfaces/graphics/vga.md)
   * [HDMI](interfaces/graphics/hdmi.md)
   * [Draw an image using FPGA](interfaces/graphics/draw-an-image-using-fpga.md)
-* [UART and FIFO](interfaces/uart-and-fifo.md)
+* [Serial Interface](interfaces/serial-interface.md)
 
 ## Tools
 
@@ -23,6 +23,9 @@
 * [Get started with quartus](tools/get-started-with-quartus.md)
 * [FPGA build flow](tools/fpga-build-flow.md)
 * [Tcl](tools/tcl.md)
+* [Varilator](tools/varilator.md)
+* [VCS](tools/vcs.md)
+* [Verilog testbench](tools/verilog-testbench.md)
 
 ## Devices
 
@@ -31,6 +34,7 @@
 
 ## Misc
 
+* [Input Conditioning Circuits](misc/input-conditioning-circuits.md)
 * [Build A RISC-V Soft Core CPU](misc/build-a-riscv-soft-core-cpu.md)
 * [Introduction to FPGA](misc/introduction-to-fpga.md)
 * [Clock Wizard](misc/clock-wizard.md)
