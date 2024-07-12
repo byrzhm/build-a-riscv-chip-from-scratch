@@ -1,12 +1,13 @@
 # Table of contents
 
-## Turorial
+## Tutorial
 
 * [Overview](README.md)
-* [Memory](turorial/memory.md)
-* [ALU](turorial/alu.md)
-* [ISA](turorial/isa.md)
-* [Pipeline](turorial/pipeline.md)
+* [ISA](tutorial/isa.md)
+* [Datapath](tutorial/datapath/README.md)
+* [Single Cycle](tutorial/single-cycle/README.md)
+* [Pipeline](tutorial/pipeline/README.md)
+* [Out of order](tutorial/out-of-order/README.md)
 
 ## Interfaces
 
