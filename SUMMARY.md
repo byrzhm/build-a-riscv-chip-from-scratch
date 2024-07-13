@@ -5,6 +5,12 @@
 * [Overview](README.md)
 * [RISC-V Microarchitecture](tutorial/riscv-microarchitecure.md)
 * [Datapath](tutorial/datapath/README.md)
+  * [R-type](tutorial/datapath/r-type.md)
+  * [I-type](tutorial/datapath/i-type.md)
+  * [S-type](tutorial/datapath/s-type.md)
+  * [B-type](tutorial/datapath/b-type.md)
+  * [U-type](tutorial/datapath/u-type.md)
+  * [J-type](tutorial/datapath/j-type.md)
 * [Single Cycle](tutorial/single-cycle/README.md)
 * [Pipeline](tutorial/pipelined/README.md)
 
