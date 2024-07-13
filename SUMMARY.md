@@ -3,11 +3,10 @@
 ## Tutorial
 
 * [Overview](README.md)
-* [ISA](tutorial/isa.md)
+* [RISC-V Microarchitecture](tutorial/riscv-microarchitecure.md)
 * [Datapath](tutorial/datapath/README.md)
 * [Single Cycle](tutorial/single-cycle/README.md)
-* [Pipeline](tutorial/pipeline/README.md)
-* [Out of order](tutorial/out-of-order/README.md)
+* [Pipeline](tutorial/pipelined/README.md)
 
 ## Interfaces
 
@@ -27,8 +26,9 @@
 * [Get started with quartus](tools/get-started-with-quartus.md)
 * [FPGA build flow](tools/fpga-build-flow.md)
 * [Tcl](tools/tcl.md)
+* [iverilog](tools/iverilog.md)
+* [gtkwave](tools/gtkwave.md)
 * [Varilator](tools/varilator.md)
-* [VCS](tools/vcs.md)
 * [Verilog testbench](tools/verilog-testbench.md)
 
 ## Devices
