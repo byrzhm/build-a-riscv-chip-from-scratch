@@ -15,7 +15,10 @@
   * [VGA](interfaces/graphics/vga.md)
   * [HDMI](interfaces/graphics/hdmi.md)
   * [Draw an image using FPGA](interfaces/graphics/draw-an-image-using-fpga.md)
-* [Serial Interface](interfaces/serial-interface.md)
+* [Serial Interface](interfaces/serial-interface/README.md)
+  * [UART and FIFO](interfaces/serial-interface/uart-and-fifo.md)
+  * [Echo](interfaces/serial-interface/echo.md)
+  * [Memory Controller](interfaces/serial-interface/memory-controller.md)
 
 ## Tools
 
