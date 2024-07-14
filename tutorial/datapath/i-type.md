@@ -1,6 +1,6 @@
 # I-type
 
-## I-Format Instruction Format
+## I-Format Instruction Layout
 
 <figure><img src="../../.gitbook/assets/i-type.png" alt=""><figcaption></figcaption></figure>
 
