@@ -18,7 +18,7 @@
 
 <figure><img src="../../.gitbook/assets/i-type-instructions.png" alt=""><figcaption><p>I-Format Arithmetic Instructions</p></figcaption></figure>
 
-### Datapath
+### Adding I-Format arithmetic instructions to datapath
 
 <figure><img src="../../.gitbook/assets/datapath2.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -38,6 +38,6 @@ Load instructions are also I-type.
 Note that the `funct3` field is to specify the width (i.e., the amount of bytes) and signedness of load data.
 {% endhint %}
 
-### Datapath
+### Adding load instructions to datapath
 
 <figure><img src="../../.gitbook/assets/datapath3.jpg" alt=""><figcaption></figcaption></figure>

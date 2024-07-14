@@ -29,7 +29,7 @@ S-type instructions are used for store.
 
 <figure><img src="../../.gitbook/assets/s-type-instructions.png" alt=""><figcaption></figcaption></figure>
 
-## Datapath
+## Adding `sw` to datapath
 
 <figure><img src="../../.gitbook/assets/datapath4.jpg" alt=""><figcaption></figcaption></figure>
 

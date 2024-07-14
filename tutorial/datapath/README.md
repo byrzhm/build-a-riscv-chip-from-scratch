@@ -1,11 +1,17 @@
 # Datapath
 
-Basically ***Microarchitecture = Datapath + Control Unit***. We will build our RISC-V datapath step-by-step.
- A resonable way is to examine the major components required to execute different RISC-V instructions.
+Basically ***Microarchitecture = Datapath + Control Unit***. A resonable way to
+build our RISC-V datapath is to examine the major components required to execute
+different RISC-V instructions.
 
 * [R-type](r-type.md)
 * [I-type](i-type.md)
 * [S-type](s-type.md)
 * [B-type](b-type.md)
-* [U-type](u-type.md)
 * [J-type](j-type.md)
+* [U-type](u-type.md)
+
+## References
+
+* This section mainly comes from the lectures on RISC-V by [Shao](https://inst.eecs.berkeley.edu/~eecs151/sp22/)
+* Also refers to [chapter 7 of Harris & Harris](https://pages.hmc.edu/harris/ddca/), and [chapter 4 of Patterson & Hennessy](https://a.co/d/3h5bzS4)
