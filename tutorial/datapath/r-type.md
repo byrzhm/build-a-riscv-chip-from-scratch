@@ -5,7 +5,7 @@
 <figure><img src="../../.gitbook/assets/r-type.png" alt=""><figcaption></figcaption></figure>
 
 * _opcode_: partially specifies what instruction it is
-  * Note: This field is equal to <mark style="color:red;">0110011</mark> for all R-Format register-register arithmetic instructions
+  * Note: This field is equal to <mark style="color:red;">0110011</mark> for all R-format register-register arithmetic instructions
 * _funct7 + funct3_: combined with _opcode_, these two fields describe what operation to perform
 
 \
@@ -29,6 +29,6 @@ Decoding _funct7_ and _funct3_ fields to select appropriate ALU functions.
 
 ## Datapath
 
-Here is our datapath for R-Format instructions.
+Here is our datapath for R-format instructions.
 
 <figure><img src="../../.gitbook/assets/datapath1.jpg" alt=""><figcaption></figcaption></figure>

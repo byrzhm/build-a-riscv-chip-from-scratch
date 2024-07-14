@@ -32,9 +32,8 @@
 * [Get started with quartus](tools/get-started-with-quartus.md)
 * [FPGA build flow](tools/fpga-build-flow.md)
 * [Tcl](tools/tcl.md)
-* [iverilog](tools/iverilog.md)
-* [gtkwave](tools/gtkwave.md)
-* [Varilator](tools/varilator.md)
+* [Open-source tools for FPGA development](tools/open-source-tools-for-fpga-development/README.md)
+  * [iverilog](tools/open-source-tools-for-fpga-development/iverilog.md)
 * [Verilog testbench](tools/verilog-testbench.md)
 
 ## Devices

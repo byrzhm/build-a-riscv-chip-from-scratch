@@ -4,8 +4,8 @@
 
 <figure><img src="../../.gitbook/assets/i-type.png" alt=""><figcaption></figcaption></figure>
 
-* The `funct7` and `rs2` fields from R-Format are replaced by 12-bit signed immediate, `imm[11:0]` (in range \[-2048, 2047]).
-* Remaining fields (`rs1`, `funct3`, `rd`, `opcode`) same as R-Format.
+* The `funct7` and `rs2` fields from R-format are replaced by 12-bit signed immediate, `imm[11:0]` (in range \[-2048, 2047]).
+* Remaining fields (`rs1`, `funct3`, `rd`, `opcode`) same as R-format.
 * Immediate is always sign-extended to 32-bits before use in an arithmetic operation.
 
 ### I-immediate

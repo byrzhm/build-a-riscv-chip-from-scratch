@@ -4,7 +4,7 @@
 All branch instructions use the B-type instruction format.
 
 * E.g., `BEQ x1, x2, Label`
-  * if x1 == x2 pc <- pc + offset
+  * if x1 == x2 then pc <- pc + offset
   * offset computed by compiler/assembler and stored in the immediate field(s)
 * Branches read two registers but don't write a register (similar to stores)
 {% endhint %}
@@ -13,7 +13,7 @@ All branch instructions use the B-type instruction format.
 
 <figure><img src="../../.gitbook/assets/b-type.png" alt=""><figcaption></figcaption></figure>
 
-* B-Format is similar to S-Format, with two register sources (rs1/rs2) and a 12-bit immediate
+* B-format is similar to S-format, with two register sources (rs1/rs2) and a 12-bit immediate
 * The 12 immediate bits encode 13-bit signed byte offsets (low bit of offset is always zero, so no need to store it)
 * But now immediate represents values `-2^12` to `+2^12 - 1` in 2-byte increments
 
