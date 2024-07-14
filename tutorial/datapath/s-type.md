@@ -1,25 +1,21 @@
 # S-type
 
 {% hint style="info" %}
-
 S-type instructions are used for store.
-
 {% endhint %}
 
 ## S-Format Instruction Layout
 
 <figure><img src="../../.gitbook/assets/s-type.png" alt=""><figcaption></figcaption></figure>
 
-* $\rm Mem[Reg[rs1] + offset] \leftarrow Reg[rs2]$
+* Mem\[Reg\[rs1] + offset] <- Reg\[rs2]
 
 {% hint style="warning" %}
-
 **Immediate in two parts**
 
-* Can't have both *rs2* and *immediate* in same place as other instructions
+* Can't have both _rs2_ and _immediate_ in same place as other instructions
 * RISC-V design decision is move low 5 bits of immediate to where rd field was in other instructions - keep rs1/rs2 fields in same place
   * register names more critical than immediate bits in hardware design
-
 {% endhint %}
 
 ## I+S Immediate Generation
@@ -38,7 +34,5 @@ S-type instructions are used for store.
 <figure><img src="../../.gitbook/assets/datapath4.jpg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-
 How to control the amount of bytes to write to memory?
-
 {% endhint %}

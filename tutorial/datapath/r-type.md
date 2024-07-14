@@ -4,30 +4,27 @@
 
 <figure><img src="../../.gitbook/assets/r-type.png" alt=""><figcaption></figcaption></figure>
 
-* *opcode*: partially specifies what instruction it is
-  * Note: This field is equal to $\textcolor{red}{0110011_{two}}$ for all R-Format register-register arithmetic instructions
-* *funct7 + funct3*: combined with *opcode*, these two fields describe what operation to perform
+* _opcode_: partially specifies what instruction it is
+  * Note: This field is equal to <mark style="color:red;">0110011</mark> for all R-Format register-register arithmetic instructions
+* _funct7 + funct3_: combined with _opcode_, these two fields describe what operation to perform
 
-<br>
+\
 
-* *rs1*(Source Register #1): specifies register containing first operand
-* *rs2*: specifies second register operand
-* *rd*(Destination Register): specifies register which will receive result of computation
+
+* _rs1_(Source Register #1): specifies register containing first operand
+* _rs2_: specifies second register operand
+* _rd_(Destination Register): specifies register which will receive result of computation
 
 {% hint style="info" %}
-
 Each register field holds a 5-bit unsigned integer (0-31) corresponding to a register number (x0-x31)
-
 {% endhint %}
 
 ## R-Format Instructions
 
-<figure><img src="../../.gitbook/assets/r-type-instructions.png" alt=""><figcaption>R-type instructions</figcaption></figure>
+<figure><img src="../../.gitbook/assets/r-type-instructions.png" alt=""><figcaption><p>R-type instructions</p></figcaption></figure>
 
 {% hint style="info" %}
-
-Decoding *funct7* and *funct3* fields to select appropriate ALU functions.
-
+Decoding _funct7_ and _funct3_ fields to select appropriate ALU functions.
 {% endhint %}
 
 ## Datapath
