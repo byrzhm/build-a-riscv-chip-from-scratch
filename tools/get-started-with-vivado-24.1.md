@@ -1,5 +1,5 @@
 ---
-description: ZYNQ7000 - AX7020
+description: 'DEVICE: ZYNQ7000 - AX7020'
 ---
 
 # Get started with vivado 24.1
@@ -10,39 +10,27 @@ Open vivado, and then click `Create Project`.
 
 <figure><img src="../.gitbook/assets/截图 2024-07-02 20-34-19.png" alt=""><figcaption></figcaption></figure>
 
-
-
-Specify the project name and location. I use the breathing light circuit to demonstrate.&#x20;
+Specify the project name and location. I use the breathing light circuit to demonstrate.
 
 <figure><img src="../.gitbook/assets/截图 2024-07-02 20-35-16.png" alt=""><figcaption></figcaption></figure>
-
-
 
 Select `RTL Project` and check `Do not specify sources at this time`.
 
 <figure><img src="../.gitbook/assets/截图 2024-07-02 20-35-39.png" alt=""><figcaption></figcaption></figure>
 
-
-
-Our device information is at [Our device](broken-reference)
+Our device information is at [Our device](broken-reference/)
 
 <figure><img src="../.gitbook/assets/截图 2024-07-02 20-37-21.png" alt=""><figcaption></figcaption></figure>
-
-
 
 To create the project, click `Finish`.
 
 <figure><img src="../.gitbook/assets/截图 2024-07-02 20-37-35.png" alt=""><figcaption></figcaption></figure>
-
-
 
 ## Design
 
 Now, it's time to add our verilog design source code.
 
 <figure><img src="../.gitbook/assets/截图 2024-07-02 20-43-02.png" alt=""><figcaption></figcaption></figure>
-
-
 
 First click `Create File`, and then specify the `File type` to `SystemVerilog` and `File name` to `led`.
 
@@ -88,7 +76,7 @@ Just name it `testbench`.
 
 <figure><img src="../.gitbook/assets/截图 2024-07-02 20-50-14.png" alt=""><figcaption></figcaption></figure>
 
-Here is `testbench.sv`.  You can change the code as long as you fully understand it.
+Here is `testbench.sv`. You can change the code as long as you fully understand it.
 
 ```verilog
 `timescale 1ns / 1ps
@@ -122,13 +110,9 @@ endmodule
 
 <figure><img src="../.gitbook/assets/截图 2024-07-02 20-57-30.png" alt=""><figcaption></figcaption></figure>
 
-
-
 First click `Run Simulation`, and then click `Run Behavioral Simulation` to run simulation.
 
 <figure><img src="../.gitbook/assets/截图 2024-07-02 21-00-59 (1).png" alt=""><figcaption></figcaption></figure>
-
-
 
 Here is the waveform.
 
@@ -138,9 +122,7 @@ Here is the waveform.
 Maybe you need to scale the waveform down. And you can drag dut (design under test) instance to the waveform to see the signals inside the instance.
 {% endhint %}
 
-
-
-## &#x20;Schematic
+## Schematic
 
 Click `Open Elaborated Design`.
 
@@ -148,17 +130,13 @@ Click `Open Elaborated Design`.
 
 <figure><img src="../.gitbook/assets/截图 2024-07-02 21-06-03.png" alt=""><figcaption></figcaption></figure>
 
-
-
 Click `Schematic`, and then you can see an intuitive diagram showing up in the editor area.
 
 <figure><img src="../.gitbook/assets/截图 2024-07-02 21-06-35.png" alt=""><figcaption></figcaption></figure>
 
-
-
 ## Pin planning
 
-In `I/O Ports` window, set the `Package Pin` and `I/O Std`. The settings is related to our [device details](broken-reference).
+In `I/O Ports` window, set the `Package Pin` and `I/O Std`. The settings is related to our [device details](broken-reference/).
 
 <figure><img src="../.gitbook/assets/截图 2024-07-02 21-10-57.png" alt=""><figcaption></figcaption></figure>
 
@@ -179,8 +157,6 @@ Now run synthesis.
 When synthesis completed, click `Cancel`. Because we need to add timing constraints first.
 
 <figure><img src="../.gitbook/assets/截图 2024-07-02 21-14-13.png" alt=""><figcaption></figcaption></figure>
-
-
 
 ## Timing Constraints
 
@@ -225,11 +201,11 @@ Click `Open target` and then click `auto connect`. If the cable driver is correc
 {% hint style="info" %}
 Possible solutions to "vivado cannot find your device" (linux version):
 
-`cd` to directory  "`/path/to/Xilinx/Vivado/<vivado-version>/data/xicom/cable_drivers/lin64/install_script/install_drivers`".
+`cd` to directory "`/path/to/Xilinx/Vivado/<vivado-version>/data/xicom/cable_drivers/lin64/install_script/install_drivers`".
 
 * change "/path/to" to the real path to Xilinx for example "/tools" or "/opt"
 * change "\<vivado-version>" to the real vivado version for example "2024.1"
-* In the directory, there is a `install_drivers`  script (same name as the directory name), run using command `sudo ./install_drivers`
+* In the directory, there is a `install_drivers` script (same name as the directory name), run using command `sudo ./install_drivers`
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/截图 2024-07-03 11-53-02.png" alt=""><figcaption></figcaption></figure>
@@ -238,13 +214,9 @@ Right click our device `xc7z020_1`, and then click `Program Device`.
 
 <figure><img src="../.gitbook/assets/截图 2024-07-03 11-54-00.png" alt=""><figcaption></figcaption></figure>
 
-
-
 Leave it the default Bitstream File and click `Program`.
 
 <figure><img src="../.gitbook/assets/截图 2024-07-03 11-54-18.png" alt=""><figcaption></figcaption></figure>
-
-
 
 Now, you can see the breathing light effect.
 
@@ -252,5 +224,5 @@ Now, you can see the breathing light effect.
 
 ## References
 
-* [Tsinghua](https://lab.cs.tsinghua.edu.cn/digital-logic-lab/doc/lab4/vivado_use/)
-* [Alinx tutorial](https://www.bilibili.com/video/BV1JJ411u77d?p=2&vd_source=571900c3ae9bbfdc988accacb2feb8be)
+* [Tsinghua](https://lab.cs.tsinghua.edu.cn/digital-logic-lab/doc/lab4/vivado\_use/)
+* [Alinx tutorial](https://www.bilibili.com/video/BV1JJ411u77d?p=2\&vd\_source=571900c3ae9bbfdc988accacb2feb8be)
