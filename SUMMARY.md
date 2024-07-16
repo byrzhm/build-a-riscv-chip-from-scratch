@@ -12,6 +12,7 @@
   * [U-type](tutorial/datapath/u-type.md)
   * [J-type](tutorial/datapath/j-type.md)
 * [Single Cycle](tutorial/single-cycle/README.md)
+  * [implementation](tutorial/single-cycle/implementation.md)
 * [Pipeline](tutorial/pipelined/README.md)
 
 ## Interfaces
@@ -32,9 +33,14 @@
 * [Get started with quartus](tools/get-started-with-quartus.md)
 * [FPGA build flow](tools/fpga-build-flow.md)
 * [Tcl](tools/tcl.md)
+* [Verilog testbench](tools/verilog-testbench.md)
 * [Open-source tools for FPGA development](tools/open-source-tools-for-fpga-development/README.md)
   * [iverilog](tools/open-source-tools-for-fpga-development/iverilog.md)
-* [Verilog testbench](tools/verilog-testbench.md)
+  * [nextpnr](tools/open-source-tools-for-fpga-development/nextpnr.md)
+* [RISC-V Toolchain](tools/riscv-toolchain/README.md)
+  * [RISC-V Toolchain Installation](tools/riscv-toolchain/riscv-toolchain-installation.md)
+  * [RISC-V Toolchain Usage](tools/riscv-toolchain/riscv-toolchain-usage.md)
+
 
 ## Devices
 
@@ -48,3 +54,4 @@
 * [Introduction to FPGA](misc/introduction-to-fpga.md)
 * [Clock Wizard](misc/clock-wizard.md)
 * [What is an IP core?](misc/what-is-an-ip-core.md)
+* [Test and Debug Soft Cores](misc/test-and-debug-soft-cores.md)

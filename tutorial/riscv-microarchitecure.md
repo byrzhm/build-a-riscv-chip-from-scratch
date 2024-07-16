@@ -63,3 +63,4 @@ We will implement a single-cycle processor first, and then a pipelined one.
 ## References
 
 * The RISC-V related lectures of [EECS151/251A](https://www.eecs151.org)
+* The RV32I [specification](https://drive.google.com/file/d/1uviu1nH-tScFfgrovvFCrj7Omv8tFtkp/view).

@@ -15,3 +15,4 @@ different RISC-V instructions.
 
 * This section mainly comes from the lectures on RISC-V by [Shao](https://inst.eecs.berkeley.edu/~eecs151/sp22/)
 * Also refers to [chapter 7 of Harris & Harris](https://pages.hmc.edu/harris/ddca/), and [chapter 4 of Patterson & Hennessy](https://a.co/d/3h5bzS4)
+* And the official [RV32I specification](https://drive.google.com/file/d/1uviu1nH-tScFfgrovvFCrj7Omv8tFtkp/view)
