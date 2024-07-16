@@ -101,3 +101,7 @@ RV32I is basically a nine bit ISA. If you get stuck, check my [implementation](h
 
 It's not very hard to connect all the components. If you don't know what to do,
 check the complete datapath we have built.
+
+## Test our implementations
+
+I write some very simple testbenches to test my implementations, you can see these testbench at [single-cycle/sim](https://github.com/byrzhm/SimpleRV/tree/main/single-cycle/sim)

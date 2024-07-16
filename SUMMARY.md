@@ -13,6 +13,7 @@
   * [J-type](tutorial/datapath/j-type.md)
 * [Single Cycle](tutorial/single-cycle/README.md)
   * [Implementation](tutorial/single-cycle/implementation.md)
+  * [More Fun](tutorial/single-cycle/more-fun.md)
 * [Pipeline](tutorial/pipelined/README.md)
 
 ## Interfaces
