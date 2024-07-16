@@ -12,7 +12,7 @@
   * [U-type](tutorial/datapath/u-type.md)
   * [J-type](tutorial/datapath/j-type.md)
 * [Single Cycle](tutorial/single-cycle/README.md)
-  * [implementation](tutorial/single-cycle/implementation.md)
+  * [Implementation](tutorial/single-cycle/implementation.md)
 * [Pipeline](tutorial/pipelined/README.md)
 
 ## Interfaces

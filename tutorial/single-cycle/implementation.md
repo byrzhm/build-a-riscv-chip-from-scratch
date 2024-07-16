@@ -2,9 +2,9 @@
 
 ## Implementation Overview
 
-First, we will implement the basic elements, i.e., PC, memory, register file and ALU.
-Then we will connect these elements together. The control unit will be easy to implement,
-because RV32I is basically a nine-bit ISA!
+First, we will implement the basic elements, i.e., PC, memory, register file, ALU and so on.
+Then we will connect these basic elements together with our control unit. The control unit
+will be super easy to implement, because RV32I is basically a nine-bit ISA!
 
 <figure><img src="../../.gitbook/assets/nine-bits.png" alt=""><figcaption></figcaption></figure>
 
@@ -16,8 +16,8 @@ PC is just a 32-bit register.
 
 {% hint style="info" %}
 
-Only the low bits of PC are useful, because the intruction memory is limited.
-The low two bits of PC are always zero, how to utilize it?
+* Only the low bits of PC are useful, because the instruction memory is limited.
+* The low two bits of PC are always zero, how to utilize it?
 
 {% endhint %}
 
@@ -87,45 +87,11 @@ Here is my [implementation](https://github.com/byrzhm/SimpleRV/blob/main/single-
 
 <figure><img src="../../.gitbook/assets/all-immediate.png" alt=""><figcaption></figcaption></figure>
 
-```verilog
-module immgen (
-    input      [31:7]                instr,
-    input      [`IMM_TYPE_WIDTH-1:0] imm_sel,
-    output reg [31:0]                imm_out
-);
-
-    always @(*) begin
-        case (imm_sel)
-            `IMM_I: imm_out = {{21{instr[31]}}, instr[30:20]};
-            `IMM_S: imm_out = {{21{instr[31]}}, instr[30:25], instr[11:7]};
-            `IMM_B: imm_out = {{20{instr[31]}}, instr[7], instr[30:25], instr[11:8], 1'b0};
-            `IMM_U: imm_out = {instr[31:12], 12'b0};
-            `IMM_J: imm_out = {{12{instr[31]}}, instr[19:12], instr[20], instr[30:21], 1'b0};
-            default: imm_out = 0;
-        endcase
-    end
-
-endmodule
-```
+My implementation goes [here](https://github.com/byrzhm/SimpleRV/blob/main/single-cycle/src/immgen.sv).
 
 ### Comparator
 
-```verilog
-module comparator #(
-    parameter DWIDTH = 32
-) (
-    input [DWIDTH-1:0] a,
-    input [DWIDTH-1:0] b,
-    input br_un,
-    output br_eq,
-    output br_lt
-);
-
-    assign br_eq = (a == b);
-    assign br_lt = (br_un) ? (a < b) : ($signed(a) < $signed(b));
-
-endmodule
-```
+Pretty easy and here is my [implementation](https://github.com/byrzhm/SimpleRV/blob/main/single-cycle/src/comparator.sv).
 
 ## Control Unit
 
