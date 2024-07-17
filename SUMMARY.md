@@ -14,7 +14,7 @@
 * [Single Cycle](tutorial/single-cycle/README.md)
   * [Implementation](tutorial/single-cycle/implementation.md)
   * [More Fun](tutorial/single-cycle/more-fun.md)
-* [Pipeline](tutorial/pipelined/README.md)
+* [Pipelined](tutorial/pipelined/README.md)
 
 ## Interfaces
 
