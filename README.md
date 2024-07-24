@@ -20,4 +20,4 @@ We will build a RISC-V chip from scratch, are you ready for it? 😎
 
 <figure><img src="https://pages.hmc.edu/harris/ddca/ddcarv/DDCArv_Cover.jpg" alt=""><figcaption><p>Digital Design and Computer Architecture RISC-V Edition, by Sarah L Harris and David Harris</p></figcaption></figure>
 
-<figure><img src="https://m.media-amazon.com/images/I/81WGpOGgMAL._SY522_.jpg" alt=""><figcaption><p>Computer Organization and Design RISC-V Edition, by David Patterson and John Hennessy</p></figcaption></figure>
+<figure><img src="https://m.media-amazon.com/images/I/713LnlupOwL._SL1229_.jpg" alt=""><figcaption><p>Computer Organization and Design RISC-V Edition, by David Patterson and John Hennessy</p></figcaption></figure>

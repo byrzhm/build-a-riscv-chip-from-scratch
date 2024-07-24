@@ -28,7 +28,7 @@ The RV32I ISA can be divided into six intruction formats(R/I/S/B/U/J), as shown 
 
 {% hint style="info" %}
 
-`x0` is hardwired to 0 (always 0). Writes to `Reg[0]` are ignored.
+`x0` is hardwired to 0 (i.e., always 0). Writes to `Reg[0]` are ignored.
 
 {% endhint %}
 

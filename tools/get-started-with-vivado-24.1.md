@@ -206,6 +206,8 @@ Possible solutions to "vivado cannot find your device" (linux version):
 * change "/path/to" to the real path to Xilinx for example "/tools" or "/opt"
 * change "\<vivado-version>" to the real vivado version for example "2024.1"
 * In the directory, there is a `install_drivers` script (same name as the directory name), run using command `sudo ./install_drivers`
+
+[UG973](https://docs.amd.com/r/en-US/ug973-vivado-release-notes-install-license/Install-Cable-Drivers) may be useful to you.
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/截图 2024-07-03 11-53-02.png" alt=""><figcaption></figcaption></figure>

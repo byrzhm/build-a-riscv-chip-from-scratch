@@ -7,10 +7,6 @@
 * _opcode_: partially specifies what instruction it is
   * Note: This field is equal to <mark style="color:red;">0110011</mark> for all R-format register-register arithmetic instructions
 * _funct7 + funct3_: combined with _opcode_, these two fields describe what operation to perform
-
-\
-
-
 * _rs1_(Source Register #1): specifies register containing first operand
 * _rs2_: specifies second register operand
 * _rd_(Destination Register): specifies register which will receive result of computation
