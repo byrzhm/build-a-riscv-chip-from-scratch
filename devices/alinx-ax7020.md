@@ -1,4 +1,4 @@
-# ZYNQ7000 - AX7020
+# Alinx AX7020
 
 ## Part ID: `xc7z020clg400-2`
 

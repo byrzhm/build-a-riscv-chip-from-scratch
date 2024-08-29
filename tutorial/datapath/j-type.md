@@ -12,7 +12,7 @@ I'm sorry for putting JALR here. Actually JALR is I-type.
 
 <figure><img src="../../.gitbook/assets/jalr.png" alt=""><figcaption></figcaption></figure>
 
-* `JARL rd, rs1, imm`
+* `JALR rd, rs1, imm`
   * Reg[rd] <- PC + 4; PC <- Reg[rs1] + imm;
     * Write `PC + 4` to Reg[rd] (*return address*)
     * Sets PC = Reg[rs1] + offset
@@ -31,6 +31,11 @@ Don't need to multiply the immediate by 2.
 ## JAL
 
 <figure><img src="../../.gitbook/assets/jal.png" alt=""><figcaption></figcaption></figure>
+
+* `JAL rd, imm`
+  * Reg[rd] <- PC + 4; PC <- PC + imm;
+    * Write `PC + 4` to Reg[rd] (*return address*)
+    * Sets PC = PC + offset
 
 ### Adding `JAL` to datapath
 

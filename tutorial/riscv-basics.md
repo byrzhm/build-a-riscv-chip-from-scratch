@@ -1,4 +1,4 @@
-# RISC-V Microarchitecture
+# RISC-V Basics
 
 ## Complete RV32I ISA
 

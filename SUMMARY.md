@@ -3,7 +3,7 @@
 ## Tutorial
 
 * [Overview](README.md)
-* [RISC-V Microarchitecture](tutorial/riscv-microarchitecure.md)
+* [RISC-V Basics](tutorial/riscv-microarchitecure.md)
 * [Datapath](tutorial/datapath/README.md)
   * [R-type](tutorial/datapath/r-type.md)
   * [I-type](tutorial/datapath/i-type.md)
@@ -45,7 +45,7 @@
 
 ## Devices
 
-* [ZYNQ7000 - AX7020](devices/zynq7000-ax7020.md)
+* [Alinx AX7020](devices/alinx-ax7020.md)
 * [DE10-Stanard](devices/de10-stanard.md)
 
 ## Misc

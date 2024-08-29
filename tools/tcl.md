@@ -12,7 +12,7 @@ export PATH="/tools/Xilinx/Vivado/2024.1/bin:$PATH"
 
 Now, when you enter `vivado` at the command prompt, it will automatically runs `vivado -mode gui` to launch the Vivado IDE.
 
-Now, enter `vivado -mode tcl`. It will launch an interactive Tcl command shell. You can enter `start_gui` at the tcl prompt to launch the Vivado IDE and open the Vivado tool GUI.
+If you enter `vivado -mode tcl`, it will launch an interactive Tcl command shell. You can enter `start_gui` at the tcl prompt to launch the Vivado IDE and open the Vivado tool GUI.
 
 {% endhint %}
 
