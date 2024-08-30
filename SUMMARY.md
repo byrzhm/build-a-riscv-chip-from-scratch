@@ -3,7 +3,7 @@
 ## Tutorial
 
 * [Overview](README.md)
-* [RISC-V Basics](tutorial/riscv-microarchitecure.md)
+* [RISC-V Basics](tutorial/riscv-basics.md)
 * [Datapath](tutorial/datapath/README.md)
   * [R-type](tutorial/datapath/r-type.md)
   * [I-type](tutorial/datapath/i-type.md)
